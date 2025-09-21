@@ -639,15 +639,6 @@ export default function Home() {
             variants={itemVariants}
             className="mb-8 md:mb-8"
           >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-              className="inline-flex items-center space-x-3 glass-button text-white px-6 py-3 ios-rounded-xl text-sm font-medium mb-8 shadow-lg shadow-green-500/20 spring-in"
-            >
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse shadow-sm shadow-green-400/50"></div>
-              <span className="text-white/90">Premium Shopping Experience</span>
-            </motion.div>
 
             <motion.h1
               variants={itemVariants}
